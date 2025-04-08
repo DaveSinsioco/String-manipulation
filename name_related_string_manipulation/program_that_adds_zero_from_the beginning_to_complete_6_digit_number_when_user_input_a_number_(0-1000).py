@@ -2,4 +2,7 @@
 
 
 # asks user to input number (0-1000)
-number = int(input("Input a number (0-1000): "))
+number = (input("Input a number (0-1000): "))
+
+# counts the digits of the number
+digit_count = len(number)
