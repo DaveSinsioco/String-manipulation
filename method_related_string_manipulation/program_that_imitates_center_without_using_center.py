@@ -6,3 +6,7 @@ length = int(input("Enter the length of the string needed: "))
 
 # find the difference of length and string to find the spaces before and after string
 diff = length - len(string)
+
+# find the number of spaces before and after the string
+spaces_before = diff // 2
+spaces_after = diff - spaces_before
