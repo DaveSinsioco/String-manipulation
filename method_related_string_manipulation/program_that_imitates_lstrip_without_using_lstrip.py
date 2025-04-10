@@ -8,3 +8,6 @@ while string.startswith(" "):
 
     # if it is a space, the receding string will remain
     string = string[1:]
+
+# print string
+print(string)
