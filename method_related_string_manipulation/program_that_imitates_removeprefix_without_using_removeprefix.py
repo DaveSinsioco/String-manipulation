@@ -5,3 +5,6 @@ prefix = input("Enter the prefix to remove: ")
 
 # ask the user to input the string to remove the prefix from
 string = input("Enter the string: ")
+
+# check if the string starts with the prefix
+if string.startswith(prefix):
