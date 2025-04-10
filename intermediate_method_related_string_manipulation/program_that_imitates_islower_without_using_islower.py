@@ -2,3 +2,7 @@
 
 # ask user to enter a string
 string = input("Enter a string: ")
+
+# check if character is not lower case
+for char in string:
+    if ('A' <= char <= 'Z'):
