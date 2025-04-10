@@ -11,3 +11,9 @@ indeces = []
 for i in range(len(string)):
     if string[i] == char:
         indeces.append(i)
+
+# print the first index, if not found print -1
+if indeces:
+    print(indeces[0])
+else:
+    print("-1")    
