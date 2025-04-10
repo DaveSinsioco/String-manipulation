@@ -3,3 +3,6 @@
 # asks the user to enter a string and length
 string = input("Enter a string: ")
 length = int(input("Enter the length of the string needed: "))
+
+# find the difference of length and string to find the spaces before and after string
+diff = length - len(string)
