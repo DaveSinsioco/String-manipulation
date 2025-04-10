@@ -3,3 +3,6 @@
 # ask the user for a string and a character to search
 string = input("Enter a string: ")
 char = input("Enter a character to search: ")
+
+# find the placement of the string from the last character
+placement = (string.rfind(char))
