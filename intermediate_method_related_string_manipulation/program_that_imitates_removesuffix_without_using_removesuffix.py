@@ -8,3 +8,6 @@ string = input("Enter the string: ")
 
 # check if the string starts with the suffix
 if string.endswith(suffix):
+
+    # remove the suffix from the string by letting the end removed.
+    string = string[:-len(suffix)]
