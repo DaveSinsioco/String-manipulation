@@ -8,3 +8,6 @@ result = ""
 
 # make the first letter of the string, capital letter
 result += string[0].upper()
+
+# make all other letters in the string, small case
+result += string[1:].lower()
