@@ -3,3 +3,6 @@
 # ask user to enter a string
 string = input("Enter a string: ")
 
+# check if character is not upper case
+for char in string:
+    if ('a' <= char <= 'z'):
