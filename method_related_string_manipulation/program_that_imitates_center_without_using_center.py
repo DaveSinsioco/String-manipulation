@@ -10,3 +10,6 @@ diff = length - len(string)
 # find the number of spaces before and after the string
 spaces_before = diff // 2
 spaces_after = diff - spaces_before
+
+# print everything together
+print(" " * spaces_before + string + " " * spaces_after)
