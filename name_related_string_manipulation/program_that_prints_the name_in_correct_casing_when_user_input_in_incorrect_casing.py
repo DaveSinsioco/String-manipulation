@@ -2,3 +2,6 @@
 
 # ask the user to input their name 
 name = str(input("Enter your name: "))
+
+# convert the name to proper casing 
+print(name.title())
