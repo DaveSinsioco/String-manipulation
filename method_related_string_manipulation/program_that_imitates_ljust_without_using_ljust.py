@@ -4,3 +4,5 @@
 string = input("Enter a string: ")
 length = int(input("Enter the length of the string needed: "))
 
+# prints the string with spaces at the end to complete the length
+print(string + " " * (length - len(string)))
