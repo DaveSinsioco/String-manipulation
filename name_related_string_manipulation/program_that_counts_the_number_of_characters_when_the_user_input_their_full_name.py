@@ -2,3 +2,6 @@
 
 # ask the user to input their name
 name = input("Enter your full name: ")
+
+# print the counted number of characters in the name
+print(len(name))
