@@ -10,7 +10,7 @@ string = input("Enter the string: ")
 if string.startswith(prefix):
 
     # remove the prefix from the string by letting the receding remain since length of prefix is the number of charactera to start from.
-    
     string = string[len(prefix):]
 
+# prints string
 print(string)
