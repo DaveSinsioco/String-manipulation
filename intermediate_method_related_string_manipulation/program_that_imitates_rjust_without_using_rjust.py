@@ -3,3 +3,6 @@
 # asks the user to enter a string and length
 string = input("Enter a string: ")
 length = int(input("Enter the length of the string needed: "))
+
+# prints the string with spaces at the start to complete the length
+print(" " * (length - len(string)) + string)
