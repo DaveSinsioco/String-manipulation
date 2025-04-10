@@ -8,3 +8,7 @@ result = ""
 
 # split the string into words, store it in result
 result = string.split()
+
+# use i to iterate through the words in the string, and capitalize the first letter of each word, connect it with "end"
+for i in range(len(result)):
+    print(result[i].capitalize(), end=" ")
