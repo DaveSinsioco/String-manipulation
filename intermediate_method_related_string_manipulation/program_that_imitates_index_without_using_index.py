@@ -6,3 +6,8 @@ char = input("Enter a character to search: ")
 
 # initialize an empty list to store the indices
 indeces = []
+
+# iterate through the string and check if the character matches
+for i in range(len(string)):
+    if string[i] == char:
+        indeces.append(i)
