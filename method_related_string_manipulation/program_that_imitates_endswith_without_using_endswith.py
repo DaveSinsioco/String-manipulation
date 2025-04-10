@@ -3,3 +3,5 @@
 # ask user to enter a string
 string = input("Enter a string: ")
 
+# ask user to enter a suffix
+suffix = input("Enter a suffix: ")
