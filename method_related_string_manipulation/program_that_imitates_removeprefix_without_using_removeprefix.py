@@ -8,3 +8,9 @@ string = input("Enter the string: ")
 
 # check if the string starts with the prefix
 if string.startswith(prefix):
+
+    # remove the prefix from the string by letting the receding remain since length of prefix is the number of charactera to start from.
+    
+    string = string[len(prefix):]
+
+print(string)
