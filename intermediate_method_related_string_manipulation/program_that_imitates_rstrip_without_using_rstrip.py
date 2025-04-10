@@ -9,3 +9,5 @@ while string.endswith(" "):
     # if the last character is a space, remove it
     string = string[:-1]
 
+# print string
+print(string)
