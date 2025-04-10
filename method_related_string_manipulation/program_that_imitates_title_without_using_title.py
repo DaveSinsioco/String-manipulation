@@ -2,3 +2,6 @@
 
 # asks user to enter a string
 string = input("Enter a string: ")
+
+# creates a variable to store the result
+result = ""
