@@ -6,3 +6,9 @@ char = input("Enter a character to search: ")
 
 # find the placement of the string from the last character
 placement = (string.rfind(char))
+
+# print the result after checking if the character is not found in the string
+if placement == -1:
+    print(f"Value Error")
+else:
+    print(placement)
