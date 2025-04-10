@@ -11,3 +11,6 @@ if string.endswith(suffix):
 
     # remove the suffix from the string by letting the end removed.
     string = string[:-len(suffix)]
+
+# prints string
+print(string)
