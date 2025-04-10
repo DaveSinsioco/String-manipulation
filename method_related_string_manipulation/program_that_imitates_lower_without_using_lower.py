@@ -2,3 +2,6 @@
 
 # ask user to enter a string
 string = input("Enter a string: ")
+
+# prints the string in lowercase by making everything uppercase then swapcase
+print(string.upper().swapcase())
