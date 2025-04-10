@@ -5,3 +5,6 @@ string = input("Enter a string: ")
 
 # create an empty string to store the result
 result = ""
+
+# make the first letter of the string, capital letter
+result += string[0].upper()
