@@ -2,3 +2,6 @@
 
 # ask the user to input the suffix to remove
 suffix = input("Enter the suffix to remove: ")
+
+# ask the user to input the string to remove the suffix from
+string = input("Enter the string: ")
