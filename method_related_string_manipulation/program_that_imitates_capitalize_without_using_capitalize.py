@@ -11,3 +11,6 @@ result += string[0].upper()
 
 # make all other letters in the string, small case
 result += string[1:].lower()
+
+# print the result
+print(result)
