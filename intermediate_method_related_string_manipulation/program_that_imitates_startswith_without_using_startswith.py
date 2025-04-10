@@ -2,3 +2,6 @@
 
 # ask user to enter a string
 string = input("Enter a string: ")
+
+# ask user to enter a prefix
+prefix = input("Enter a prefix: ")
