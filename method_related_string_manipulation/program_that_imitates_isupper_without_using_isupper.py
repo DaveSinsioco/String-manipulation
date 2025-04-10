@@ -6,3 +6,7 @@ string = input("Enter a string: ")
 # check if character is not upper case
 for char in string:
     if ('a' <= char <= 'z'):
+        
+        # if character has lower case characer, print the message and break the loop
+        print("The string is not upper case.")
+        break
