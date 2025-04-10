@@ -5,3 +5,6 @@ suffix = input("Enter the suffix to remove: ")
 
 # ask the user to input the string to remove the suffix from
 string = input("Enter the string: ")
+
+# check if the string starts with the suffix
+if string.endswith(suffix):
