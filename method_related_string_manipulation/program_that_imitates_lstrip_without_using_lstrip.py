@@ -5,3 +5,6 @@ string = input("Enter a string: ")
 
 # starts a while loop to check if the first character is a space
 while string.startswith(" "):
+
+    # if it is a space, the receding string will remain
+    string = string[1:]
