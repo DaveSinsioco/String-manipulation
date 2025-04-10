@@ -5,3 +5,17 @@ string = input("Enter a string: ")
 
 # create an empty string to store the result
 result = ""
+
+# check then change every character in the string
+for char in string:
+
+    # check if the character is uppercase, convert it to lowercase if it is
+    if char.isupper():
+        result += char.lower()
+        
+    # check if the character is lowercase, convert it to uppercase if it is
+    else:
+        result += char.upper()
+
+# print the result
+print(result)        
